@@ -32,7 +32,7 @@ class Projects extends Component {
     return (
       <div className="ui main container">
           <div className="myProjectsColumn">
-            <h1 className="projectsHeader">My Projects</h1>
+            <h1 className="introHeader">My Projects</h1>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia quod
               ab doloremque eaque. Consequatur temporibus, quos enim, eaque nemo ad

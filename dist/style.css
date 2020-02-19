@@ -4,25 +4,12 @@ body {
   background-repeat: no-repeat;
 }
 
-.header {
-  height: 60px;
-}
-
-.letsTalk {
-  padding-top: 60px;
-}
-
-.reviews {
-  padding-top: 60px;
-}
-
-.karroHeader {
-  padding-top: 60px;
+.introHeader {
+  padding-top: 80px;
   text-align: center;
 }
 
-.helloHeader {
-  padding-top: 60px;
+p {
   text-align: center;
 }
 

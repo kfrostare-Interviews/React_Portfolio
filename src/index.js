@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 import Hello from "./Hello";
 import Header from "./Header";
 import Footer from "./Footer";
+import Reviews from "./Reviews";
+import Contact from "./Contact";
 // import { BrowserRouter } from "react-router-dom";
 import Projects from "./Projects";
 import About from "./About";
@@ -16,6 +18,8 @@ const App = () => {
         <Route exact path="/" component={Hello}></Route>
         <Route exact path="/about" component={About}></Route>
         <Route exact path="/projects" component={Projects}></Route>
+        <Route exact path="/reviews" component={Reviews}></Route>
+        <Route exact path="/contact" component={Contact}></Route>
       </Switch>
       <Footer />
     </>

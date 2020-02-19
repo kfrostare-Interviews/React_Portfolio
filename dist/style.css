@@ -8,7 +8,25 @@ body {
   height: 60px;
 }
 
-footer {
+.letsTalk {
+  padding-top: 60px;
+}
+
+.reviews {
+  padding-top: 60px;
+}
+
+.karroHeader {
+  padding-top: 60px;
+  text-align: center;
+}
+
+.helloHeader {
+  padding-top: 60px;
+  text-align: center;
+}
+
+/* footer {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -19,14 +37,14 @@ footer {
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
-  }
+  } */
 
 .main.container {
     margin-top: 4em;
 }
 
-.myProjectsColumn {
- padding-top: 20px;
+.projectsHeader {
+ padding-top: 60px;
  padding-bottom: 20px;
  padding-left: 0;
  padding-right: 0;

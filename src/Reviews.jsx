@@ -1,11 +1,11 @@
-import React, { createFactory } from "react";
+import React from "react";
 
-const Hello = () => {
+const Reviews = () => {
   return (
     <div className="ui main container">
       <div class="ui stackable two column grid">
         <div class="column">
-          <h1 className="helloHeader">Banana!</h1>
+          <h1 className="reviews">Reviews</h1>
           <p>
             Ipsum dolor dolorem consectetur est velit fugiat. Dolorem provident
             corporis fuga saepe distinctio ipsam? Et quos harum excepturi dolorum
@@ -17,4 +17,4 @@ const Hello = () => {
   );
 };
 
-export default Hello;
+export default Reviews;

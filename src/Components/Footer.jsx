@@ -4,9 +4,7 @@ const Footer = () => {
     return (
       <footer>
         <div className="ui container">
-          <p id="footer">
-            
-          </p>
+          <p id="footer"></p>
         </div>
       </footer>
     );

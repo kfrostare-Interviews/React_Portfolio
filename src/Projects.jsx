@@ -35,9 +35,7 @@ class Projects extends Component {
           <div className="myProjectsColumn">
             <h1 className="introHeader">My Projects</h1>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia quod
-              ab doloremque eaque. Consequatur temporibus, quos enim, eaque nemo ad
-              iusto sequi modi totam qui veniam? Ab asperiores inventore distinctio.
+              Please have a look around and let me know if you have any questions.
             </p>
           </div>
         

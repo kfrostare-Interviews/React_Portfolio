@@ -1,20 +1,20 @@
 [
   {
     "id": 1,
-    "name": "My First Website",
-    "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
-    "description": "This was my first project. The guy lost, but won the popular vote!"
+    "name": "The BMI Calculator",
+    "image": "/src/images/printscreen/bmicalculator.jpg",
+    "description": "| Programmed and tested with: JavaScript, Cypress | This simple yet fully functional little calculator app was my first challenge as a student going through developer bootcamp. I love to look at it from time to time just to get a sense of how much I've grown."
   },
   {
     "id": 2,
-    "name": "UI Design",
-    "image": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-    "description": "Designing user interfaces is fun. I want to learn more about that..."
+    "name": "The Address Book",
+    "image": "src/images/printscreen/addressbook.jpg",
+    "description": "| Programmed and tested with: JavaScript, Cypress | A pretty little app and another of my throw-backs to the beginning of my developer career. This simple little app lets you add and edit contacts to your online address book."
   },
   {
     "id": 3,
-    "name": "Mobile UX",
-    "image": "https://images.unsplash.com/photo-1534237886190-ced735ca4b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-    "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
+    "name": "The Little Newsroom",
+    "image": "src/images/printscreen/newsroom3.png",
+    "description": "| Programmed and tested with: Ruby on Rails, Rspec | This was my very first time working with Legacy code. This was initially an old blog where I was tasked with going through and debugging so that we finally could add features like read and edit articles."
   }
   ]

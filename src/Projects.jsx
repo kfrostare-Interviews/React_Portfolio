@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "./Components/ProjectCard";
 
 class Projects extends Component {
   state = {
@@ -22,7 +22,7 @@ class Projects extends Component {
     if (projects.length > 0) {
       projectsList = projects.map(project => {
         return (
-          <div id={"project-" + project.id} key={project.id}>
+          <div id={"projectCards" + project.id} key={project.id}>
             <ProjectCard project={project} />
           </div>
         );

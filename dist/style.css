@@ -9,15 +9,16 @@ body {
   text-align: center;
 }
 
-p {
+h2 {
+  padding-top: 80px;
   text-align: center;
 }
 
-.projectsHeader {
-  padding-top: 60px;
-  padding-bottom: 20px;
-  padding-left: 0;
-  padding-right: 0;
+p {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 120px;
+  padding-right: 120px;
   text-align: center;
 }
 

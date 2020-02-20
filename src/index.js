@@ -7,6 +7,7 @@ import Reviews from "./Reviews";
 import Contact from "./Contact";
 import Projects from "./Projects";
 import About from "./About";
+import Profilepic from "./Components/Profilepic";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
 
 const App = () => {

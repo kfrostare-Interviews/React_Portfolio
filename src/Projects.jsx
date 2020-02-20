@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import ProjectCard from "./Components/ProjectCard";
+import Profilepic from "./Components/Profilepic";
 
 class Projects extends Component {
   state = {

@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
+// import ReviewCard from "./Components/ReviewCard";
 import Hello from "./Hello";
 import Reviews from "./Reviews";
 import Contact from "./Contact";

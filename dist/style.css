@@ -62,26 +62,27 @@ p {
 
 /* Contact Info Message - front page */
 .ui.floating.message {
-  width: 85%;
+  width: 75%;
   height: 200px;
   padding-top: 20px;
   padding-bottom: 0px;
+  justify-content: center;
   display: inline-block;
-  justify-content:center;
   opacity: .9;
   background-color: #1C1C1C;
   outline-color: #1C1C1C;
   border-color: #1C1C1C;
 }
 
+/* mail icon */
 .envelope.outline.icon {
   color: white;
 }
 
+/* phone icon */
 .mobile.alternate.icon {
   color: white;
 }
-
 
 /* Footer */
 footer {
@@ -119,12 +120,3 @@ footer {
   border-radius: 9px;
   padding-left: 80px;
 }
-
-/* .banner-text {
-  background-color: black;
-  opacity: .8;
-  width: 75%;
-  margin: auto;
-  border-radius: 10px;
-} */
-

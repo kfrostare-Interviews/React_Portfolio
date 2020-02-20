@@ -1,5 +1,4 @@
 import React, { createFactory } from "react";
-import Profilepic from "./Components/Profilepic";
 
 const Hello = () => {
   return (
@@ -13,8 +12,8 @@ const Hello = () => {
             How can we make them return or reach out? With that i mind I'm determined to build platforms, apps and websites
             with the right focus - our users.<br></br><br></br>
             Have a look at my portfolio and remember that all my contact info is right here should you have any questions.
+            <br></br><br></br>
           </p>
-          <p>{ Profilepic }</p>
         </div>
       </div>
     </div>

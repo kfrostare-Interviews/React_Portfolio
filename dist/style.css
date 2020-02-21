@@ -5,6 +5,7 @@ body {
   background-image: url(/src/images/background/banana-4415864.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /* Karolina Frostare - main menu */
@@ -85,7 +86,7 @@ p {
 }
 
 /* Footer */
-footer {
+/* footer {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -97,7 +98,8 @@ footer {
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
-}
+  margin: 0 auto;
+} */
 
 /* Inside of the Project cards */
 .ui.centered.card {

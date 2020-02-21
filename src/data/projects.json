@@ -9,10 +9,28 @@
     "id": 2,
     "name": "The Address Book",
     "image": "src/images/printscreen/addressbook.jpg",
-    "description": "| Programmed and tested with: JavaScript, Cypress | A pretty little app and another of my throw-backs to the beginning of my developer career. This simple little app lets you add and edit contacts to your online address book."
+    "description": "| Programmed and tested with: JavaScript, Cypress | A pretty little app and another one of my throw-backs to the beginning of my developer career. This simple little app lets you add and edit contacts to your online address book, there are of course lots more to be added."
   },
   {
     "id": 3,
+    "name": "The Little Newsroom",
+    "image": "src/images/printscreen/newsroom3.png",
+    "description": "| Programmed and tested with: Ruby on Rails, Rspec | This was my very first time working with Legacy code. This was initially an old blog where I was tasked with going through and debugging so that we finally could add features like read and edit articles."
+  },
+  {
+    "id": 4,
+    "name": "The BMI Calculator",
+    "image": "/src/images/printscreen/bmicalculator.jpg",
+    "description": "| Programmed and tested with: JavaScript, Cypress | This simple yet fully functional little calculator app was my first challenge as a student going through developer bootcamp. I love to look at it from time to time just to get a sense of how much I've grown."
+  },
+  {
+    "id": 5,
+    "name": "The Address Book",
+    "image": "src/images/printscreen/addressbook.jpg",
+    "description": "| Programmed and tested with: JavaScript, Cypress | A pretty little app and another one of my throw-backs to the beginning of my developer career. This simple little app lets you add and edit contacts to your online address book, there are of course lots more to be added."
+  },
+  {
+    "id": 6,
     "name": "The Little Newsroom",
     "image": "src/images/printscreen/newsroom3.png",
     "description": "| Programmed and tested with: Ruby on Rails, Rspec | This was my very first time working with Legacy code. This was initially an old blog where I was tasked with going through and debugging so that we finally could add features like read and edit articles."

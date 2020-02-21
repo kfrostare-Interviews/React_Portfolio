@@ -58,11 +58,11 @@ describe('User can navigate the Start page', () => {
   
       it('displays correct url', () => {
         cy.url()
-          .should("not.contain", "projects")
-          .and("not.contain", "passion");    
+          .should('not.contain', 'projects')
+          .and('not.contain', 'passion');    
       });
   
-      it('does not display About Me header ', () => {
+      it('does not display About Me header', () => {
         cy.get('#about-header').should('not.exist');
       });
   

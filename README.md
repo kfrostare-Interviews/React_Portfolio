@@ -1,7 +1,7 @@
 # [The Banana Portfolio](https://frostare.netlify.com/)
 ![The Banana Portfolio](src/images/printscreen/bananascreenshot.png)
 
-*This portfolio was created using React. I love it but we're not there yet. The following needs to be done before I'm taking the re-build sign off.*
+*This portfolio was created using React, click on the title to get there. Look - I love it - but we're not there yet. The following needs to be done before I'm taking the re-build sign off.*
 
 * A stunning image carousel | Page: Karro |
 * More visual work from previous employments | Page: Visual work |

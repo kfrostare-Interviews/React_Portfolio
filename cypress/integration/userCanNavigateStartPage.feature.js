@@ -1,31 +1,29 @@
-describe('User can navigate the app', () => {
+describe('User can navigate the Start page', () => {
     beforeEach(() => {
       cy.visit('http://localhost:3000');
     })
   
-    describe('to Karro tab and it', () => {
-      beforeEach(() => {
-        cy.get('#Karro-tab').click();
-      });
+    describe('to view the start page it', () => {
   
-      it('displays Karro header', () => {
-        cy.get('#about-header').should('contain', 'Passion number Three');
+      it('displays Banana header', () => {
+        cy.get('#banana-header').should('contain', 'Banana');
       });
   
       it('displays component name in url', () => {
-        cy.url().should("contain", "about");
+        cy.url().should('contain', "Hello"); //It could also contain slash, try if this doesn't work
       })
   
-      it('does not display My Projects header ', () => {
+      it('does not display Visual work header ', () => {
         cy.get('#projects-header').should('not.exist');
       });
   
-      it('does not display Hello world', () => {
-        cy.get('#hello').should('not.exist');
+      it('does not display Contact page', () => {
+        cy.get('#contact').should('not.exist'); //This may not work... just sayin
       });
     });
-  
-    describe('to My Projects tab and it',() => {
+    
+    //Clicks the Visual work- button
+    describe('clicks on other pages from start page',() => {
       beforeEach(() => {
         cy.get('#Visual work-tab').click();
       });
@@ -42,12 +40,13 @@ describe('User can navigate the app', () => {
         cy.get('#Karro-header').should('not.exist');
       });
   
-      it('does not display Hello world', () => {
+      it('does not display Contact', () => {
         cy.get('#hello').should('not.exist');
       });
     });
   
-    describe('back to My Portfolio/Hello tab and it',() => {
+    //Clicks the start page again
+    describe('back to the Start page',() => {
       beforeEach(() => {
         cy.get('#Karro-tab').click();
         cy.get('#header').click();
@@ -60,8 +59,8 @@ describe('User can navigate the app', () => {
       it('displays correct url', () => {
         cy.url()
           .should("not.contain", "projects")
-          .and("not.contain", "about");    
-      })
+          .and("not.contain", "passion");    
+      });
   
       it('does not display About Me header ', () => {
         cy.get('#about-header').should('not.exist');

@@ -6,11 +6,11 @@ describe('User can navigate the Start page', () => {
     describe('to view the start page it', () => {
   
       it('displays Banana header', () => {
-        cy.get('#banana-header').should('contain', 'Banana');
+        cy.get('#introHeader').should('contain', 'Banana!');
       });
   
       it('displays component name in url', () => {
-        cy.url().should('contain', "Hello"); //It could also contain slash, try if this doesn't work
+        cy.url().should('contain', "/"); 
       })
   
       it('does not display Visual work header ', () => {
@@ -18,18 +18,18 @@ describe('User can navigate the Start page', () => {
       });
   
       it('does not display Contact page', () => {
-        cy.get('#contact').should('not.exist'); //This may not work... just sayin
+        cy.get('#contact').should('not.exist'); 
       });
     });
     
     //Clicks the Visual work- button
     describe('clicks on other pages from start page',() => {
       beforeEach(() => {
-        cy.get('#Visual work-tab').click();
+        cy.get('#projects-tab').click();
       });
   
       it('displays My Projects header', () => {
-        cy.get('#projects-header').should('contain', 'My Projects');
+        cy.get('#myProjects').should('contain', 'My Projects');
       });
   
       it('displays component name in url', () => {
@@ -48,12 +48,12 @@ describe('User can navigate the Start page', () => {
     //Clicks the start page again
     describe('back to the Start page',() => {
       beforeEach(() => {
-        cy.get('#Karro-tab').click();
-        cy.get('#header').click();
+        cy.get('#karolinaFrostare').click();
+        cy.get('#introHeader').click();
       });
   
       it('displays Hello World', () => {
-        cy.get('#hello').should('contain', 'Hello');
+        cy.get('#introHeader').should('contain', 'Banana!');
       });
   
       it('displays correct url', () => {

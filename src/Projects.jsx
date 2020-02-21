@@ -30,7 +30,7 @@ class Projects extends Component {
     }
 
     return (
-      <div className="ui main container">
+      <div className="ui main container" id='myProjects'>
         <div className="myProjectsColumn">
           <h1 className="introHeader">My Projects</h1>
           <p>

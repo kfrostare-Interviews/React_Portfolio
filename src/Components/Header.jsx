@@ -4,7 +4,7 @@ import { NavLink, Link } from "react-router-dom";
 const Header = () => {
   return (
     <nav className="ui fixed inverted menu">
-      <div className="ui container">
+      <div className="ui container" id='karolinaFrostare'>
         <Link id="header" className="header item" to="/">
           Karolina Frostare
         </Link>

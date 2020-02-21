@@ -9,7 +9,8 @@ const Contact = () => {
                  Yes. I'm a talker. I firmly believe that communication in the solution to most 
                  things in this world. So no matter if you communicat to a friend, a dog och a computer - 
                  do it right, do it often and do it well!
-              </p>
+              </p><br></br><br></br>
+            <h2>Hmm.. not much in here. But I'm working on it!</h2>
         </div>
     </div>
   );

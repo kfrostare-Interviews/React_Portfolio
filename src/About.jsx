@@ -18,6 +18,7 @@ const About = () => {
             them out with their marketing in exchange for me to be a part of their story. Helping them create an app or design a business 
             card in line with their brand is in a way to be part of their journey and life long dream. That, to me, is so rewarding!
           </p>
+            <h2>Stay tuned for some beautiful images!</h2>
           
 
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Reviews = () => {
   return (
-      <div className="ui main container">
+      <div className="ui main container" id='reviewHeader'>
         <div class="ui main container">
           <div class="column">
             <h1 className="introHeader">Reviews</h1>

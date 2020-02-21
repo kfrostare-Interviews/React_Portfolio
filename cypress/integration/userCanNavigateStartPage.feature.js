@@ -48,7 +48,7 @@ describe('User can navigate the Start page', () => {
     //Clicks the start page again
     describe('back to the Start page',() => {
       beforeEach(() => {
-        cy.get('#karolinaFrostare').click();
+        cy.get('#introHeader').click();
         cy.get('#introHeader').click();
       });
   

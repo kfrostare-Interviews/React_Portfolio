@@ -12,9 +12,10 @@
 * A chatbot pop-up asking if there is anything I can help with | Page: All pages |
 
 
-### Thanks to
+### Thanks for
 * Stateful vs. Stateless by [Hussein Nasser](https://www.youtube.com/watch?v=nhwZn6v5vT0)
 * Component Lifecycle by [Academind](https://www.youtube.com/watch?v=Oioo0IdoEls)
 * Background from [Pixabay](https://pixabay.com/)
 * Template from [Semantic UI](https://semantic-ui.com/)
 * Avatar from [IconFinder](https://www.iconfinder.com/)
+* Rubber ducking and coaching [Jaime Cruz](https://github.com/JaimeCrz)

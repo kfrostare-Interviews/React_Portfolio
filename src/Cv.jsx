@@ -1,16 +1,47 @@
-import React from "react";
+import React, { Component } from "react";
+import axios from "axios";
+import CvCard from "./components/CvCard.jsx";
 
-const Cv = () => {
-  return (
-    <div className="ui main container" id='cvHeader'>
-      <h1 id="projects-header" className="introHeader">Workplaces</h1>
-      <p>
-        Ipsum dolor dolorem consectetur est velit fugiat. Dolorem provident
-        corporis fuga saepe distinctio ipsam? Et quos harum excepturi dolorum
-        molestias?
-      </p>
-    </div>
-  );
+class Cv extends Component {
+  state = {
+    cv: [] //not sure if this is correct...
+  };
+
+  componentDidMount() {
+    axios.get("./src/data/workplaces.json").then(response => {
+        this.setState({
+          workplaces: response.data
+        });
+    });
+  };
+
+  render() {
+    const cv = this.state.cv;
+    let cvList;
+
+    if (cv.length > 0) {
+      cvList = projects.map(cv => {
+        return (
+          <div id={"cv" + workplace.id} key={workplace.id}>
+            <CvCard workplace={workplace} />
+          </div>
+        );
+      });
+    };
+
+    return (
+      <div className="ui main container" id='myWorkplaces'>
+        <div className="myWorkplacesColumn">
+          <h1 className="introHeader">My Workplaces</h1>
+          <p>
+            Please have a look around and let me know if you have any questions.
+          </p>
+        </div>
+
+        <div className="ui stackable four column grid">{cvList}</div>
+      </div>
+    );
+  };
 };
 
 export default Cv;

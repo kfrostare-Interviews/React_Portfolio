@@ -20,10 +20,10 @@ class Cv extends Component {
     let cvList;
 
     if (cv.length > 0) {
-      cvList = projects.map(cv => {
+      cvList = cv.map(cv => {
         return (
           <div id={"cv" + workplace.id} key={workplace.id}>
-            <CvCard workplace={workplace} />
+            <CvCard workplace={workplaces} />
           </div>
         );
       });

@@ -1,7 +1,7 @@
 describe('User can see list of previous employments', () => {
     beforeEach(() => {
       cy.visit('http://localhost:3000');
-      cy.get('#cv-tab').click();
+      cy.get('#cv-tab').click()
     })
   
     it('displays last place of employment', () => {
@@ -24,7 +24,7 @@ describe('User can see list of previous employments', () => {
       cy.get('#cvCards3').within(() => {
         cy.get(('.image')).should('exist');
         cy.get('.ui.header').should('contain', '...');
-        cy.get('.description').should('...");
+        cy.get('.description').should('...');
       })
     });  
   });

@@ -22,7 +22,7 @@ class Cv extends Component {
     if (cv.length > 0) {
       cvList = cv.map(workplace => {
         return (
-          <div id={"cv-" + workplace.id} key={workplace.id}>
+          <div id={"cvCards-" + workplace.id} key={workplace.id}>
             <CvCard workplace={workplace} />
           </div>
         );

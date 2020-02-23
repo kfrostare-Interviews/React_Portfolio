@@ -1,20 +1,20 @@
 [
   {
    "id": 1,
-   "name": "The BMI Calculator",
+   "name": "Filler title1",
    "image": "/src/images/printscreen/bmicalculator.jpg",
-   "description": "a sense of how much I've grown."
+   "description": "Filler content that talks about workplaces.1"
   },
   {
    "id": 2,
-   "name": "The Address Book",
+   "name": "Filler title2",
    "image": "src/images/printscreen/addressbook.jpg",
-   "description": " of course lots more to be added."
+   "description": "Filler content that talks about workplaces.2"
   },
   {
    "id": 3,
-   "name": "The Little Newsroom",
+   "name": "Filler title3",
    "image": "src/images/printscreen/newsroom3.png",
-   "description": "es like read and edit articles."
+   "description": "Filler content that talks about workplaces.3"
   }
 ]

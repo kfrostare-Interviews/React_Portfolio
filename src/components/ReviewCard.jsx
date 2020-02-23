@@ -10,8 +10,9 @@ const ReviewCard = ({ review }) => {
         <div class="content">
           <h3 class="ui header">{review.name}</h3>
           <div class="meta">{review.meta}</div>
-          <br></br><br></br>
-          <div class="description">{review.description}</div>
+          <br></br>
+          <div class="description">{review.description}</div><br></br>
+          <div className="link" onClick="window.open"><a href={review.link}>Read more reviews</a></div>
         </div>
       </div>
     </>

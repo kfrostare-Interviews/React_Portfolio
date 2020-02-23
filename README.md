@@ -17,7 +17,8 @@ The Banana Portfolio has been created using ReactJS, React Router, NPM, Webpack 
 * A beautiful background from [Pixabay](https://pixabay.com/)
 * Cool templates from [Semantic UI](https://semantic-ui.com/)
 * My cute Avatar from [IconFinder](https://www.iconfinder.com/)
-* And of course Rubber ducking and coaching with [Jaime Cruz](https://github.com/JaimeCrz), thanks superman!
+* Rubber ducking and coaching with [Jaime Cruz](https://github.com/JaimeCrz), thanks superman!
+* Getting testhelp and info on using hyperlinks in json file from [Kayla Woodbury](https://github.com/kaylawoodbury), you rock!
 
 ### Upcoming improvements
 *I love my Banana portfolio, but we're not there yet. The following needs to be done before I'm taking the re-build sign off.*

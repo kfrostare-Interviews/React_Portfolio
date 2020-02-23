@@ -3,42 +3,42 @@
    "id": 1,
    "name": "Craft Academy | 2020",
    "image": "src/images/cvfolder/craftacademy.jpg",
-   "description": "Filler content that talks about workplaces.1",
+   "description": "16 week's BootCamp in learning Full Stack Development as a craft.",
    "link": "https://www.linkedin.com/in/frostare/"
   },
   {
    "id": 2,
    "name": "PlantVision | 2019",
    "image": "src/images/cvfolder/plantvision.jpg",
-   "description": "Filler content that talks about workplaces.2",
+   "description": "Marketing coordinator at consultant agency focused on process industry.",
    "link": "https://www.linkedin.com/in/frostare/"
   },
   {
    "id": 3,
    "name": "Tritech | 2016 - 2019 ",
    "image": "src/images/cvfolder/tritech.jpg",
-   "description": "Filler content that talks about workplaces.3",
+   "description": "Marketing coordinator at high-tech dev. house for intelligent products.",
    "link": "https://www.linkedin.com/in/frostare/"
   },
   {
     "id": 4,
     "name": "Cambridge",
     "image": "src/images/cvfolder/cambridge.jpg",
-    "description": "Filler content that talks about workplaces.1",
+    "description": "Level 2 business english certificate from the University of Cambridge",
     "link": "https://www.linkedin.com/in/frostare/"
    },
    {
     "id": 5,
     "name": "Uppsala Folkuniversitet",
     "image": "src/images/cvfolder/folkuniversitetet.jpg",
-    "description": "Filler content that talks about workplaces.2",
+    "description": "International Marketing degree + internships at Unilever Sweden",
     "link": "https://www.linkedin.com/in/frostare/"
    },
    {
     "id": 6,
     "name": "Medborgarskolan",
     "image": "src/images/cvfolder/medborgarskolan.jpg",
-    "description": "Filler content that talks about workplaces.3",
+    "description": "Professional degree in digital marketing graphic design and layout",
     "link": "https://www.linkedin.com/in/frostare/"
    }
 ]

@@ -32,9 +32,12 @@ class Reviews extends Component {
     return (
       <div className="ui main container" id='myReviews'>
         <div className="myReviewsColumn">
-          <h1 className="introHeader">Content</h1>
+          <h1 className="introHeader">Friends and colleagues</h1>
           <p>
-            More Content
+            They say true friends are the ones who talk shit about you to your face 
+            and complements you behind your back. Well I forced my former colleagues 
+            to dish about some things they say when I'm not around and here are some 
+            of their stories.
           </p>
         </div>
 

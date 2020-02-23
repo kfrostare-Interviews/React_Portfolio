@@ -32,6 +32,3 @@ The Banana Prtfolio has been created using ReactJS, React Router, NPM, Webpack a
 
 ### Thanks for
 MIT License
-
-They say true friends are the ones who talk shit about you to your face and complements you behind your back.
-              Well I forced my former colleagues to dish about some things they say when I'm not around and here are some of their stories.

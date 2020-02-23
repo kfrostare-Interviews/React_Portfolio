@@ -61,7 +61,7 @@ p {
   justify-content:center;
 }
 
-/* Contact Info Message - front page */
+/* Contact Info Message - front page
 .ui.floating.message {
   width: 75%;
   height: 200px;
@@ -73,17 +73,7 @@ p {
   background-color: #1C1C1C;
   outline-color: #1C1C1C;
   border-color: #1C1C1C;
-}
-
-/* mail icon */
-.envelope.outline.icon {
-  color: white;
-}
-
-/* phone icon */
-.mobile.alternate.icon {
-  color: white;
-}
+} */
 
 /* Footer */
 /* footer {
@@ -122,4 +112,12 @@ p {
   border-color: #1C1C1C;
   border-radius: 9px;
   padding-left: 80px;
+}
+
+.ui.stackable.card {
+  width: 450px;
+  height: 400px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: 5em auto;
 }

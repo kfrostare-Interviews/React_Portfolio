@@ -7,7 +7,7 @@
 Did you click the link? Do you like what you see? Maybe even a little jealous. That's ok - you can have one of your very own by just [Forking this Repo](https://github.com/kfrostare/React_Portfolio).
 
 ### Behind the scenes
-The Banana Prtfolio has been created using ReactJS, React Router, NPM, Webpack and Semantic UI. Below are additional external people and places who also helped make this project possible.
+The Banana Portfolio has been created using ReactJS, React Router, NPM, Webpack and Semantic UI. Below are additional external people and places who also helped make this project possible.
 
 
 ### Thanks for
@@ -22,13 +22,11 @@ The Banana Prtfolio has been created using ReactJS, React Router, NPM, Webpack a
 ### Upcoming improvements
 *I love my Banana portfolio, but we're not there yet. The following needs to be done before I'm taking the re-build sign off.*
 
-* A stunning image carousel >> *Karro*
-* More visual work from previous employments >> *Visual work*
-* Adjustments in padding for project cards >> *Visual work*
-* A cool couple of cards for my LinkedIn recommendations >> *Reviews*
-* A beautiful and clean contact form >> *Contact* 
-* A working footer, it is currently disabled for lack of self discipline >> *All pages*
-* A chatbot pop-up asking if there is anything I can help with >> *All pages*
+* A stunning image carousel >> **Karro**
+* Adjustments in padding for project cards >> **Visual work**
+* A beautiful and clean contact form >> **Contact** 
+* A working footer, it is currently disabled for lack of self discipline >> **All pages**
+* A chatbot pop-up asking if there is anything I can help with >> **All pages**
 
-### Thanks for
+### Licences
 MIT License

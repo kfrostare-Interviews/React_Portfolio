@@ -9,7 +9,7 @@ describe('User can navigate the Review page', () => {
       });
   
       it('displays Reviews header', () => {
-        cy.get('#reviewHeader').should('contain', 'Reviews');
+        cy.get('#myReviews').should('contain', 'Friends and colleagues');
       });
   
       it('displays component name in url', () => {
@@ -53,7 +53,7 @@ describe('User can navigate the Review page', () => {
       });
   
       it('displays Reviews header', () => {
-        cy.get('#reviewHeader').should('contain', 'Reviews');
+        cy.get('#myReviews').should('contain', 'Friends and colleagues');
       });
   
       it('displays correct url', () => {

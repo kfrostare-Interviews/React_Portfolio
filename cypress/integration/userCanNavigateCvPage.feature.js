@@ -8,8 +8,8 @@ describe('User can navigate the Contact page', () => {
         cy.get('#cv-tab').click();
       });
   
-      it('displays Contact header', () => {
-        cy.get('#cvHeader').should('contain', 'Workplaces');
+      it('displays Cv header', () => {
+        cy.get('#myWorkplaces').should('contain', 'My Background');
       });
   
       it('displays component name in url', () => {
@@ -57,7 +57,7 @@ describe('User can navigate the Contact page', () => {
       })
   
       it('displays Cv header', () => {
-        cy.get('#cvHeader').should('contain', 'Workplaces');
+        cy.get('#myWorkplaces').should('contain', 'My Background');
       });
   
       it('displays correct url', () => {

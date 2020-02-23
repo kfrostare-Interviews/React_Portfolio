@@ -9,7 +9,7 @@ describe('User can navigate the Contact page', () => {
       });
   
       it('displays Contact header', () => {
-        cy.get('#contactHeader').should('contain', 'talk!');
+        cy.get('#contactHeader').should('contain', 'talk');
       });
   
       it('displays component name in url', () => {

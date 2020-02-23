@@ -11,11 +11,14 @@
 * A working footer, it is currently disabled for lack of self discipline | Page: All pages |
 * A chatbot pop-up asking if there is anything I can help with | Page: All pages |
 
+### Behind the scenes
+The Banana Prtfolio has been created using ReactJS, React Router, NPM, Webpack and Semantic UI. Below are additional external people and places who also helped make this project possible.
+
 
 ### Thanks for
-* Stateful vs. Stateless by [Hussein Nasser](https://www.youtube.com/watch?v=nhwZn6v5vT0)
-* Component Lifecycle by [Academind](https://www.youtube.com/watch?v=Oioo0IdoEls)
-* Background from [Pixabay](https://pixabay.com/)
-* Template from [Semantic UI](https://semantic-ui.com/)
-* Avatar from [IconFinder](https://www.iconfinder.com/)
-* Rubber ducking and coaching [Jaime Cruz](https://github.com/JaimeCrz)
+* An explanation on Stateful vs. Stateless by [Hussein Nasser](https://www.youtube.com/watch?v=nhwZn6v5vT0)
+* An explanation on a Component Lifecycle by [Academind](https://www.youtube.com/watch?v=Oioo0IdoEls)
+* A beautiful background from [Pixabay](https://pixabay.com/)
+* Cool templates from [Semantic UI](https://semantic-ui.com/)
+* My cute Avatar from [IconFinder](https://www.iconfinder.com/)
+* And of course Rubber ducking and coaching with [Jaime Cruz](https://github.com/JaimeCrz), thanks superman!

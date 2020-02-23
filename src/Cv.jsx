@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-import CvCard from "./components/CvCard.jsx";
+import CvCard from "./components/CvCard";
 
 class Cv extends Component {
   state = {
@@ -13,21 +13,21 @@ class Cv extends Component {
           workplaces: response.data
         });
     });
-  };
+  }
 
   render() {
     const cv = this.state.cv;
     let cvList;
 
     if (cv.length > 0) {
-      cvList = cv.map(cv => {
+      cvList = cv.map(workplace => {
         return (
-          <div id={"cv" + workplace.id} key={workplace.id}>
-            <CvCard workplace={workplaces} />
+          <div id={"cv-" + workplace.id} key={workplace.id}>
+            <CvCard workplace={workplace} />
           </div>
         );
       });
-    };
+    }
 
     return (
       <div className="ui main container" id='myWorkplaces'>
@@ -41,7 +41,6 @@ class Cv extends Component {
         <div className="ui stackable four column grid">{cvList}</div>
       </div>
     );
-  };
-};
-
+  }
+}
 export default Cv;

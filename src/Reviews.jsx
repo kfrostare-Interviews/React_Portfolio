@@ -34,11 +34,14 @@ class Reviews extends Component {
         <div className="myReviewsColumn">
           <h1 className="introHeader">Friends and colleagues</h1>
           <p>
-            They say true friends are the ones who talk shit about you to your face 
+            They say true friends are the ones who talk shit to your face 
             and complements you behind your back. Well I forced my former colleagues 
             to dish about some things they say when I'm not around and here are some 
             of their stories.
           </p>
+          <h4>
+            Be sure to click the links for more reviews!
+          </h4>
         </div>
 
         <div className="ui stackable four column grid">{reviewList}</div>

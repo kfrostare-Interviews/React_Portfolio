@@ -1,20 +1,46 @@
-import React from "react";
+import React, { Component } from "react";
+import axios from "axios";
+import ReviewCard from "./components/ReviewCard";
 
-const Reviews = () => {
-  return (
-      <div className="ui main container" id='reviewHeader'>
-        <div class="ui main container">
-          <div class="column">
-            <h1 className="introHeader">Reviews</h1>
-            <p>
-              They say true friends are the ones who talk shit about you to your face and complements you behind your back.
-              Well I forced my former colleagues to dish about some things they say when I'm not around and here are some of their stories.  
-            </p><br></br><br></br>
-            <h2>Hmm.. not much in here. But I'm working on it!</h2>
-          </div>
-        </div>
-      </div>
-    );
+class Reviews extends Component {
+  state = {
+    reviews: []
   };
 
+  componentDidMount() {
+    axios.get("./src/data/reviews.json").then(response => {
+      this.setState({
+        reviews: response.data
+      });
+    });
+  }
+
+  render() {
+    const reviews = this.state.reviews;
+    let reviewList;
+
+    if (reviews.length > 0) {
+      reviewList = reviews.map(review => {
+        return (
+          <div id={"reviewCard" + review.id} key={review.id}>
+            <ReviewCard review={review} />
+          </div>
+        );
+      });
+    }
+
+    return (
+      <div className="ui main container" id='myReviews'>
+        <div className="myReviewsColumn">
+          <h1 className="introHeader">Content</h1>
+          <p>
+            More Content
+          </p>
+        </div>
+
+        <div className="ui stackable four column grid">{reviewList}</div>
+      </div>
+    );
+  }
+}
 export default Reviews;

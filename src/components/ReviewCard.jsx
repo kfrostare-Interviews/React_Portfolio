@@ -1,20 +1,19 @@
-import React from 'react'
+import React from "react";
 
-const ReviewCards = ({ review }) => {
-   return (
-       <>
-           <div class="ui card">
-               <div class="image">
-              <img src="https://react.semantic-ui.com/images/avatar/large/daniel.jpg" />
-            </div>
-              <div class="content">
-              <div class="header">Daniel</div>
-              <div class="meta">Joined in 2016</div>
-           <div class="description">Daniel is a comedian living in Nashville.</div>
+const ReviewCard = ({ review }) => {
+  return (
+    <>
+      <div class="ui centered card">
+        <div class="image">
+          <img src={review.image} />
+        </div>
+        <div class="content">
+          <h3 class="ui header">{review.name}</h3>
+          <div class="description">{review.description}</div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
-    
-export default ReviewCards
+
+export default ReviewCard;

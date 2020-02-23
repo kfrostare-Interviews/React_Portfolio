@@ -34,7 +34,7 @@ const Header = () => {
             activeStyle={{ fontWeight: "bold" }}
             to="/cv"
           >
-            Workplaces
+            Background
           </NavLink>
 
           <NavLink

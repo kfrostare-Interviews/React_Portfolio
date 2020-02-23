@@ -32,10 +32,14 @@ class Cv extends Component {
     return (
       <div className="ui main container" id="myWorkplaces">
         <div className="myWorkplacesColumn">
-          <h1 className="introHeader">My Workplaces</h1>
+          <h1 className="introHeader">My Background</h1>
           <p>
-            Please have a look around and let me know if you have any questions.
+            This is where I come from. Some of the places that made me into the creative coder that I am.
+            Although this does not mention the time I started my own dog training company called Dogparty.
+            Nor does it talk about my experience as a customer relations coordinator at one of Sweden's
+            biggest retailers.
           </p>
+          <h4>Maybe we can grab a Fika and talk about that?</h4>
         </div>
 
         <div className="ui stackable four column grid">{cvList}</div>

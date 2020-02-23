@@ -10,7 +10,7 @@ class Cv extends Component {
   componentDidMount() {
     axios.get("./src/data/workplaces.json").then(response => {
         this.setState({
-          workplaces: response.data
+          cv: response.data
         });
     });
   }
@@ -30,7 +30,7 @@ class Cv extends Component {
     }
 
     return (
-      <div className="ui main container" id='myWorkplaces'>
+      <div className="ui main container" id="myWorkplaces">
         <div className="myWorkplacesColumn">
           <h1 className="introHeader">My Workplaces</h1>
           <p>

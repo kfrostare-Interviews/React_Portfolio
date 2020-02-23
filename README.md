@@ -18,6 +18,7 @@ The Banana Prtfolio has been created using ReactJS, React Router, NPM, Webpack a
 ### Thanks for
 * An explanation on Stateful vs. Stateless by [Hussein Nasser](https://www.youtube.com/watch?v=nhwZn6v5vT0)
 * An explanation on a Component Lifecycle by [Academind](https://www.youtube.com/watch?v=Oioo0IdoEls)
+* An explanation on Components and Rendering by [LearnCode.academy](https://www.youtube.com/watch?v=fd2Cayhez58&t=4s)
 * A beautiful background from [Pixabay](https://pixabay.com/)
 * Cool templates from [Semantic UI](https://semantic-ui.com/)
 * My cute Avatar from [IconFinder](https://www.iconfinder.com/)

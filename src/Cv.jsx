@@ -4,7 +4,7 @@ import CvCard from "./components/CvCard.jsx";
 
 class Cv extends Component {
   state = {
-    cv: [] //not sure if this is correct...
+    cv: []
   };
 
   componentDidMount() {

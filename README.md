@@ -1,5 +1,4 @@
-# [The Banana Portfolio](https://frostare.netlify.com/)
-*This portfolio was created using React and launched using Netlify, click on the blue title to get there*
+# [The Banana Portfolio](https://frostare.netlify.com/) [![Netlify Status](https://api.netlify.com/api/v1/badges/c8db697d-e8b0-4006-ad60-fc003c66d09e/deploy-status)](https://app.netlify.com/sites/frostare/deploys)
 
 ![The Banana Portfolio](src/images/printscreen/bananascreenshot.png)
 
